@@ -9,9 +9,10 @@ import lombok.*;
 @Data
 @Builder
 
-public class UpdateJsonPlaceholderRequestDto {
+public class PatchUpdateJsonObjectResponseDto {
 
     private String userId;
     private String title;
     private String body;
+    private Integer id;
 }
